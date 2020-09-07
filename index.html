@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="">
+            <a href="#" class="logo">Simon</a>
+            <div class="toggle"></div>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+       <section class="banner">
+           <div class="textbx">
+               <h2>Hello, I'm<br> <span>Andrew Theodore.</span></h2>
+               <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam accusamus rerum, consequatur animi neque sint perspiciatis iure maxime illum laborum, repellendus beatae deleniti nostrum soluta fuga, voluptates quaerat nobis rem?</h3>
+               <a href="#" class="btn">About me </a>
+           </div>
+            <div class="w1">
+                <img src="/heroimg.png" class="image">
+            </div>
+       </section>
+       <section class="about">
+           <div class="heading">
+               <h2>About Me</h2>
+           </div>
+           <div class="content">
+            <div class="contentBx 1">
+                <h3></h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ea nemo et nihil assumenda odio sint expedita pariatur eum est? Qui similique hic ratione amet tenetur sint obcaecati, nesciunt quibusdam?
+                <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum beatae vel exercitationem. Possimus maiores dolor sunt, quam officiis, nisi, consequatur nesciunt harum assumenda architecto iure nam natus hic facere.
+                </p>
+            </div>
+           </div>
+       </section>
+       <section class="Services">
+            <div class="heading white">
+                <h2>Like Andrew, We don't your step-back from your success</h2>
+                <p> Need quality? have time? Hire Us for:</p>
+            </div>
+            <div class="content">
+                <img src="/preprservices.png">
+            </div>
+       </section>      
+       <section class="testimonials">
+           <div class="heading">
+               <h2> See what Lurch and Fleece have to say about us </h2>
+           </div>
+           <div class="testimonial">
+               <img src="/testimonials.png">
+           </div>
+       </section>
+       
+       
+       <script type="text/javascript">
+            window.addEventListener('scroll', function () {
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+        </script>
+    </body>
+</html>
